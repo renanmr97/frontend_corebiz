@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+}
+
+footer .address{
+    color: #fff;
+}
+
+footer .address h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+footer .address h3::after{
+    display: block;
+    height: 5px;
+    width: 45px;
+    background-color: #fff;
+    content: "";
+    margin-top: 16px;
+}
+
+footer .address a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+footer .address p{
+    font-size: 13px;
+}
+
+footer .contact{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+footer .contact ul li{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 195px;
+    height: 38px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+footer .contact ul li:last-child{
+    margin-bottom: 0;
+}
+
+footer .contact img{
+    margin-top: 10px;
+}
+
+#icon-headphone{
+    position: absolute;
+    margin-left: 27px;
+}
+
+footer .contact ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#text-contact{
+    position: relative;
+    top: -4px;
+}
+
+#text-chat{
+    position: relative;
+    top: 4px;
+    margin-left: 19px;
+    text-align: center;
+}
+
+footer .created{
+    color: #fff;
+}
+
+footer .created div{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+footer .created div:last-child{
+    margin-left: 36.5px;
+}
+
+footer .created img{
+    width: 71.44px;
+    height: 18px;
+    position: absolute;
+    margin-top: -13px;
+}
+
+#img-vtex{
+    width: 52.28px;
+    height: 18.72px;
+    margin-top: -10px;
+}
+
+footer .created p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6017px;
+    line-height: 14px;
+}
+
+@media screen and (max-width: 968px){
+    footer .contact{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 673px){
+    footer .contact{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer{
+        height: 500px;
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+
+    footer .address{
+        margin-left: 20px;
+    }
+
+    footer .contact{
+        margin-top: 39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .contact ul{
+        margin-left: -25px;
+    }
+
+    footer .created{
+        margin-top: 24px;
+        margin-left: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
